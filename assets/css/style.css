@@ -1,7 +1,5 @@
 .header{
     background-color: rgba(46, 45, 45, 0.973);
-    display:flex;
-    justify-content: center;
     height: 60px;
     position: fixed;
     top: 0px;
@@ -20,8 +18,10 @@ a{
 
 ul{
     display: flex;
+    justify-content: center;
     gap: 30px;
     align-items: center;
+    height: 100%;
     
 }
 
